@@ -1,0 +1,24 @@
+name: audiocl
+dependencies:
+  - python=3.9
+  - conda-forge::jupyterlab
+  - conda-forge::jupyterlab-lsp
+  - conda-forge::python-language-server
+  - conda-forge::nodejs
+  - conda-forge::xeus-python
+  - numpy
+  - pandas
+  - pip
+  - scikit-learn
+  - scipy
+  - pytorch::pytorch=1.8.1
+  - cudatoolkit=11.1
+  - pip:
+      - ipywidgets
+      - librosa
+      - matplotlib
+      - torchaudio
+      - torchvision
+      - tqdm
+      - typer
+      - wandb
